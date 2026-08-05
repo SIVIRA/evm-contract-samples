@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.35;
+pragma solidity 0.8.36;
 
 interface IAirdroppableFT {
     function airdrop(address to, uint256 amount) external;
