@@ -9,14 +9,14 @@ deps:
 commit:
 	pnpm czg
 
+.PHONY: clean
+clean:
+	pnpm hardhat clean
+
 .PHONY: test
 test:
-	pnpm hardhat test --gas-stats
+	pnpm hardhat test $(APP_TEST_FLAGS)
 
 .PHONY: build
 build: clean
 	pnpm hardhat build --no-tests
-
-.PHONY: clean
-clean:
-	pnpm hardhat clean
