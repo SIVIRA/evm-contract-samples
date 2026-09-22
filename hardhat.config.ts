@@ -2,7 +2,7 @@ import { defineConfig } from "hardhat/config";
 
 export default defineConfig({
   solidity: {
-    version: "0.8.36",
+    version: "0.8.37",
     settings: {
       viaIR: true,
     },

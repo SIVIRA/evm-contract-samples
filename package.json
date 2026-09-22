@@ -4,16 +4,16 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@commitlint/cli": "21.2.2",
-    "@commitlint/config-conventional": "21.2.2",
-    "@commitlint/types": "21.2.0",
+    "@commitlint/cli": "21.2.3",
+    "@commitlint/config-conventional": "21.2.3",
+    "@commitlint/types": "21.2.3",
     "@openzeppelin/contracts": "5.6.1",
     "@tsconfig/node24": "24.0.5",
     "czg": "1.14.0",
     "forge-std": "github:foundry-rs/forge-std#v1.16.2",
-    "hardhat": "3.15.0",
+    "hardhat": "3.17.0",
     "husky": "9.1.7",
     "typescript": "7.0.2"
   },
-  "packageManager": "pnpm@11.25.0"
+  "packageManager": "pnpm@12.5.1"
 }
